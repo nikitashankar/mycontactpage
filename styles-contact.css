@@ -1,0 +1,252 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+/* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
+
+/* heeyyy guys it's niki here B) */
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-image: url("images/cassette-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+
+}
+
+.center {
+	width: 550px;
+	padding: 8%;
+	/* tried to make it as centered as possible with badding and width */
+	margin: 200px auto;
+	background: rgba(178, 21, 0, 0.65);
+	/* this uses opacity of 65% for the background color */
+	text-align: center;
+	border-radius: 50px;
+	/* no border!!! instead i rounded the corners */
+}
+
+
+#logo {
+	margin-bottom: 20px;
+	text-align: center;
+	/* obviously had to add my little niki watermark as my logo ;) */
+}
+
+h1 {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: "nitti-typewriter-cameo", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1.6em;
+	margin: 0px auto 10px auto;
+	color: #fff;
+	/* typewriter style of this font complements the background of cassettes */
+}
+
+h2 {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: "condor", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 1.5em;
+	line-height: 1.4;
+	color: #fff;
+	padding: 0px 0px;
+	margin: 0px auto 25px auto;
+}
+
+p {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: "anaphora-stencil", sans-serif;
+	font-weight: 280;
+	font-style: normal;
+	font-size: 1.35em;
+	line-height: 1.6;
+	color: #fff;
+}
+
+nav {
+	font-family: "azo-sans-web", sans-serif;
+	font-size: 1.2em;
+	width: 400px;
+	/* This is the width of the nav element */
+	margin: 0 auto;
+	/* This centers the entire nav element inside the center div */
+	border: dashed rgba(255, 155, 142, 0.5);
+	/* Dashed line that separates nav from the headers changed from white to orange to make it more subtle */
+	border-width: 3px 0;
+	/* This puts a 3 pixel border on top and bottom of the nav element, the zero eliminates the left and right sides of the border */
+	text-align: center;
+	margin-top: 2em;
+	/* This adds a bit of space above the nav element */
+}
+
+nav li {
+	display: inline;
+	/* This allows the block level elements to display next to one another */
+}
+
+nav a {
+	display: inline-block;
+	padding: 10px;
+	/* This adds space around each of the links */
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+	/* This removes the underline */
+	font-weight: bold;
+}
+
+a:hover {
+	color: white;
+	background: rgba(255, 155, 142, 0.5);
+	/* Hovering on the nav bar will change it to have a faded organge background! */
+}
