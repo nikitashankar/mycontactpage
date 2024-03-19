@@ -160,7 +160,10 @@ body {
 }
 
 .center {
-	width: 550px;
+	/*width: 550px;
+	this is for responsiveness! :) */
+	width: 37.85%;
+	min-width: 300px;
 	padding: 8%;
 	/* tried to make it as centered as possible with badding and width */
 	margin: 200px auto;
@@ -214,7 +217,8 @@ p {
 nav {
 	font-family: "azo-sans-web", sans-serif;
 	font-size: 1.2em;
-	width: 400px;
+	/* width: 400px; */
+	width: 70%;
 	/* This is the width of the nav element */
 	margin: 0 auto;
 	/* This centers the entire nav element inside the center div */
