@@ -156,7 +156,7 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
-
+	overflow: hidden;
 }
 
 .center {
@@ -166,7 +166,7 @@ body {
 	min-width: 300px;
 	padding: 8%;
 	/* tried to make it as centered as possible with badding and width */
-	margin: 200px auto;
+	margin: 100px auto;
 	background: rgba(178, 21, 0, 0.65);
 	/* this uses opacity of 65% for the background color */
 	text-align: center;
